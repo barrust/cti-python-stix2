@@ -1,0 +1,26 @@
+{
+    "python.linting.mypyEnabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length=180"
+    ],
+    "isort.args": [
+        "--profile",
+        "black",
+        "--py",
+        "39",
+        "--line-length",
+        "180",
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        }
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "python.defaultInterpreterPath": "~/miniconda3/envs/stix2/bin/python",
+}
